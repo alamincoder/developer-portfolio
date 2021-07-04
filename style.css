@@ -46,9 +46,17 @@ h2{
     background-repeat: no-repeat;
     background-position: left;
 }
-.experience-item{
+.experience-item-left{
     width: 40%;
     margin-left: 5%;
+    margin-right: 3%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+.experience-item-right{
+    width: 40%;
+    margin-left: 3%;
     margin-right: 5%;
     padding: 20px;
     box-shadow: 10px 10px 40px gray;
@@ -59,11 +67,13 @@ h2{
     border-left: 7px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
+    padding: 10px 30px;
 }
 #full-stack-experience {
     border-left: 7px solid;
     border-image: linear-gradient(purple, red);
     border-image-slice: 1;
+    padding: 10px 30px;
 }
 footer p {
     text-align: center;
